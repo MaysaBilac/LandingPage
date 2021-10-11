@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Sofia Pro light";
+    src: url(fonts/sofiapro-light.otf);
+}
+
+@font-face {
+    font-family: "Sofia Pro Regular";
+    src: url(fonts/Sofia\ Pro\ Regular\ Az.otf);
+}
+
+@font-face {
+    font-family: "Sofia Pro Black";
+    src: url(fonts/Sofia\ Pro\ Black\ Az.otf);
+}
+
+body {
+
+    font-family: "Sofia Pro Regular";
+}
+
+#sub-secao1, #secao2, #secao3, .sub-secao4 {
+
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#secao1 {
+
+    background-color: rgba(61, 61, 147, 1);
+    color:white;
+    
+}
+
+.agrupador-texto {
+    margin: auto;
+}
+
+.titulo {
+    margin-top: 5rem;
+}
+
+h1 {
+    font-family: "Sofia Pro Black";
+    font-size: 50px;
+    
+}
+
+.agrupador-texto p {
+
+    font-size: 26px;
+
+}
+
+img{
+    width: 100%;
+}
+
+.button button{
+
+    background-color: #ef653c;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 0;
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+}
+
+.button {
+    padding-bottom: 5rem;
+    
+}
+
+h2 {
+    font-family: "Sofia Pro Black";
+    font-size: 50px;
+    margin-top: 8rem;
+    color: #ef653c;
+}
+
+.agrupador-texto2 p{
+    font-size: 26px;
+    margin-top: 3rem;
+
+}
+
+.agrupador-texto3 {
+
+    font-size: 26px;
+    margin-top: 3rem;
+    text-align: right;
+    padding-left: 7rem;
+}
+
+.elemento-img-direita {
+
+    text-align: right;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.texto p span {
+
+    color: #ef653c;
+    font-weight: bold;
+
+}
+
+.elemento-img-esquerda {
+
+    text-align: left;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.title-texto3{
+
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.blocos div{
+
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px;
+    height: 15rem;
+    margin-bottom: 15px;
+
+
+}
+
+
+.blocos div img{
+    height: 30%;
+    
+}
+
+.blocos div p{
+
+    color: white;
+    padding-top: 3rem;
+    font-family: "Sofia Pro Light";
+}
+
+#secao3 div h2{
+    text-align: center;
+}
+
+
+.campos {
+
+    width: 100%;
+
+
+}
+
+#secao4 {
+    background-color: #ef653c;
+    padding-bottom: 6rem;
+
+}
+
+.checkbox, label{
+
+    display: inline-block;
+}
+
+.estilo-campos, .estilo-campos::placeholder{
+    
+    padding: 1.4rem;
+    border-radius: 60px;
+    border: none;
+    margin-bottom: 1rem;
+    color: #BFBFBF;
+}
+
+h3 {
+
+    padding: 3rem 0 3rem 1rem;
+    color: white;
+
+}
+
+.campo-data-horario {
+
+    width: 100%;
+    margin:0 auto;
+
+}
+
+#data{
+    margin-right: 0.5rem;
+}
+
+#horario{
+    margin-left: 0.5rem;
+}
+
+.enviar {
+
+    float:  right;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    margin-top: 5rem;
+}
+
+label{
+    color: white;
+    padding-top: 5rem;
+}
+
+#data, #horario{
+
+    color: #BFBFBF;
+
+}
+
+
+.bloco-img-p {
+    background-color: rgba(61, 61, 147, 1);
+}
+
+.blocos {
+
+    margin-bottom: 2rem;
+}
